@@ -1,0 +1,119 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="@drawable/bg_002"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/scannerpage"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear8"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="8dp"
+				android:gravity="right"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/list_bttn"
+					android:layout_width="30dp"
+					android:layout_height="30dp"
+					android:layout_marginTop="2dp"
+					android:layout_marginBottom="2dp"
+					android:src="@drawable/ic_subject_grey"
+					android:scaleType="fitCenter" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/scanlayer"
+				android:layout_width="match_parent"
+				android:layout_height="520dp"
+				android:layout_margin="8dp"
+				android:padding="8dp"
+				android:background="#FFFFFF"
+				android:orientation="vertical">
+				<com.budiyev.android.codescanner.CodeScannerView
+					android:id="@+id/scannerview"
+					android:layout_width="match_parent"
+					android:layout_height="480dp"
+					android:orientation="vertical"
+					app:autoFocusButtonColor="@android:color/white"
+					
+					app:autoFocusButtonVisible="true"
+					
+					app:flashButtonColor="@android:color/white"
+					
+					app:flashButtonVisible="true"
+					
+					app:frameColor="@android:color/white"
+					
+					app:frameCornersSize="10dp"
+					
+					app:frameCornersRadius="10dp"
+					app:frameAspectRatioWidth="1"
+					app:frameAspectRatioHeight="1"
+					app:frameSize="0.75"
+					
+					app:frameThickness="2dp"
+					app:maskColor="#77000000" />
+				<LinearLayout
+					android:id="@+id/linear9"
+					android:layout_width="match_parent"
+					android:layout_height="20dp"
+					android:background="#FFFFFF"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/detecttext"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="SCANNING..."
+						android:textSize="10sp"
+						android:textColor="#90A4AE" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear11"
+				android:layout_width="match_parent"
+				android:layout_height="100dp"
+				android:layout_margin="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/welcome"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="HELLO!"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#546E7A" />
+				<TextView
+					android:id="@+id/name"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="PLEASE SCAN YOUR QR CODE."
+					android:textSize="16sp"
+					android:textStyle="bold"
+					android:textColor="#546E7A" />
+				<TextView
+					android:id="@+id/note"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="HAVE A NICE DAY."
+					android:textSize="10sp"
+					android:textColor="#607D8B" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

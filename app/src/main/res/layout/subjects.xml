@@ -1,0 +1,109 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/main"
+		android:layout_width="match_parent"
+		android:layout_height="80dp"
+		android:layout_margin="5dp"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+		<ImageView
+			android:id="@+id/imageview1"
+			android:focusable="false"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:src="@drawable/ic_class_grey"
+			android:scaleType="fitCenter" />
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center_vertical"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/subject"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="NAME OF SUBJECT"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#546E7A" />
+			<TextView
+				android:id="@+id/subjcode"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="NNNNN"
+				android:textSize="10sp"
+				android:textColor="#546E7A" />
+			<LinearLayout
+				android:id="@+id/linear4"
+				android:layout_width="match_parent"
+				android:layout_height="15dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview6"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="SCHEDULE:"
+					android:textSize="10sp"
+					android:textColor="#546E7A" />
+				<TextView
+					android:id="@+id/date"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="NONE"
+					android:textSize="10sp"
+					android:textStyle="bold"
+					android:textColor="#546E7A" />
+				<TextView
+					android:id="@+id/scgedule"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="NONE"
+					android:textSize="10sp"
+					android:textStyle="bold"
+					android:textColor="#546E7A" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="15dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview4"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="STUDENT:"
+					android:textSize="10sp"
+					android:textColor="#546E7A" />
+				<TextView
+					android:id="@+id/student"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="NONE"
+					android:textSize="10sp"
+					android:textStyle="bold"
+					android:textColor="#546E7A" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

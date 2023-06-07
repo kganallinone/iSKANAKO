@@ -1,0 +1,23 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/main"
+		android:layout_width="match_parent"
+		android:layout_height="20dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="horizontal">
+		<TextView
+			android:id="@+id/version"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="2022-ISKO-V1-C1-T1"
+			android:textSize="10sp"
+			android:textColor="#90A4AE" />
+	</LinearLayout>
+</LinearLayout>
