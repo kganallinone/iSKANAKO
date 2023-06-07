@@ -1,0 +1,36 @@
+plugins {
+	id 'com.android.application'
+}
+
+android {
+	compileSdkVersion 28
+	
+	useLibrary 'org.apache.http.legacy'
+	
+	defaultConfig {
+		applicationId "orig.kganofficial.iskanakoapp"
+		minSdkVersion 21
+		targetSdkVersion 28
+		versionCode 3
+		versionName "1.0.1 beta_test_1"
+	}
+	
+	buildTypes {
+		release {
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+		}
+	}
+}
+
+dependencies {
+	implementation fileTree(dir: 'libs', include: ['*.jar'])
+	implementation 'androidx.appcompat:appcompat:1.2.0'
+	implementation 'com.google.android.material:material:1.4.0'
+	implementation 'com.google.firebase:firebase-auth:19.0.0'
+	implementation 'com.google.firebase:firebase-database:19.0.0'
+	implementation 'com.google.firebase:firebase-storage:19.0.0'
+	implementation 'com.google.android.gms:play-services-ads:20.1.0'
+	implementation 'com.github.bumptech.glide:glide:4.12.0'
+	implementation 'com.google.code.gson:gson:2.8.7'
+}
