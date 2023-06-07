@@ -1,0 +1,172 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="@drawable/bg_002"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear23"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textview14"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="ABOUT"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#455A64" />
+			<TextView
+				android:id="@+id/prof"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="2dp"
+				android:text="PROFESSOR: SAMPLE"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#90A4AE" />
+			<TextView
+				android:id="@+id/start_end"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="2dp"
+				android:text="START: 00:00 AM  END: 00:00 PM"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#90A4AE" />
+			<TextView
+				android:id="@+id/dtd"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="10dp"
+				android:text="DATE TODAY: MM-DD-YYYY"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#90A4AE" />
+			<TextView
+				android:id="@+id/textview3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="5dp"
+				android:text="SUBJECT/S"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#455A64" />
+			<ListView
+				android:id="@+id/subjlistdisplay"
+				android:layout_width="match_parent"
+				android:layout_height="100dp"
+				android:layout_marginBottom="10dp"
+				android:padding="8dp"
+				android:dividerHeight="0dp"
+				android:divider="@null"
+				android:choiceMode="none" />
+			<TextView
+				android:id="@+id/textview10"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="5dp"
+				android:text="ATTENDANCE"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#455A64" />
+			<LinearLayout
+				android:id="@+id/linear26"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview17"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginRight="10dp"
+					android:text="NO."
+					android:textSize="10sp"
+					android:textStyle="bold"
+					android:textColor="#90A4AE" />
+				<TextView
+					android:id="@+id/textview18"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="20dp"
+					android:layout_marginRight="120dp"
+					android:text="NAME"
+					android:textSize="10sp"
+					android:textStyle="bold"
+					android:textColor="#90A4AE" />
+				<TextView
+					android:id="@+id/textview19"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginRight="20dp"
+					android:text="STATUS"
+					android:textSize="10sp"
+					android:textStyle="bold"
+					android:textColor="#90A4AE" />
+				<TextView
+					android:id="@+id/textview20"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginRight="20dp"
+					android:text="TIME"
+					android:textSize="10sp"
+					android:textStyle="bold"
+					android:textColor="#90A4AE" />
+			</LinearLayout>
+			<ListView
+				android:id="@+id/attrndancelistdisplay"
+				android:layout_width="match_parent"
+				android:layout_height="300dp"
+				android:padding="8dp"
+				android:dividerHeight="0dp"
+				android:divider="@null"
+				android:choiceMode="none" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear25"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<LinearLayout
+				android:id="@+id/save"
+				android:layout_width="100dp"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:background="#FFFFFF"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview1"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginTop="2dp"
+					android:layout_marginBottom="2dp"
+					android:src="@drawable/ic_folder_grey"
+					android:scaleType="fitCenter" />
+				<TextView
+					android:id="@+id/textview15"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Save"
+					android:textSize="10sp"
+					android:textStyle="bold"
+					android:textColor="#90A4AE" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

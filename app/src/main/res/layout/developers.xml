@@ -1,0 +1,301 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ScrollView
+		android:id="@+id/vscroll1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#FFFFFF">
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal"
+			android:orientation="vertical">
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="200dp"
+				android:layout_height="80dp"
+				android:layout_marginTop="2dp"
+				android:layout_marginBottom="2dp"
+				android:src="@drawable/teamname"
+				android:scaleType="fitCenter" />
+			<TextView
+				android:id="@+id/textview9"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="CAPSTONE PROJECT TITLE:"
+				android:textSize="10sp"
+				android:textStyle="bold"
+				android:textColor="#90A4AE" />
+			<TextView
+				android:id="@+id/textview10"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="10dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="iSKAN AKO: Attendance Management For PUP Lopez\nComputer Laboratories"
+				android:textSize="10sp"
+				android:textStyle="bold"
+				android:textColor="#90A4AE" />
+			<TextView
+				android:id="@+id/textview6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="DEVELOPERS FROM"
+				android:textSize="10sp"
+				android:textStyle="bold"
+				android:textColor="#90A4AE" />
+			<TextView
+				android:id="@+id/textview5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="BS in Information and Technology 4-1"
+				android:textSize="10sp"
+				android:textStyle="bold"
+				android:textColor="#90A4AE" />
+			<TextView
+				android:id="@+id/textview7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Polytechnic University of the Philippines"
+				android:textSize="10sp"
+				android:textStyle="bold"
+				android:textColor="#90A4AE" />
+			<TextView
+				android:id="@+id/textview8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="10dp"
+				android:text="Lopez Branch"
+				android:textSize="10sp"
+				android:textStyle="bold"
+				android:textColor="#90A4AE" />
+			<LinearLayout
+				android:id="@+id/dev1"
+				android:layout_width="match_parent"
+				android:layout_height="100dp"
+				android:layout_margin="5dp"
+				android:padding="8dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<de.hdodenhof.circleimageview.CircleImageView
+					android:id="@+id/circleimageview7"
+					android:layout_width="70dp"
+					android:layout_height="70dp"
+					android:src="@drawable/dev_kent"
+					app:civ_border_width="3dp"
+					app:civ_border_color="#008DCD"
+					app:civ_circle_background_color="#FFFFFF"
+					app:civ_border_overlay="true" />
+				<LinearLayout
+					android:id="@+id/linear4"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:gravity="center_vertical"
+					android:orientation="vertical">
+					<TextView
+						android:id="@+id/textview3"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="TEAM LEADER &amp; LEAD DEVELOPER"
+						android:textSize="10sp"
+						android:textStyle="bold"
+						android:textColor="#90A4AE" />
+					<TextView
+						android:id="@+id/textview4"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="KENT GABRIEL ALBA NUITE"
+						android:textSize="16sp"
+						android:textStyle="bold"
+						android:textColor="#37474F" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/dev2"
+				android:layout_width="match_parent"
+				android:layout_height="100dp"
+				android:layout_margin="5dp"
+				android:padding="8dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<de.hdodenhof.circleimageview.CircleImageView
+					android:id="@+id/circleimageview8"
+					android:layout_width="70dp"
+					android:layout_height="70dp"
+					android:src="@drawable/dev_martin"
+					app:civ_border_width="3dp"
+					app:civ_border_color="#008DCD"
+					app:civ_circle_background_color="#FFFFFF"
+					app:civ_border_overlay="true" />
+				<LinearLayout
+					android:id="@+id/linear6"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:gravity="center_vertical"
+					android:orientation="vertical">
+					<TextView
+						android:id="@+id/textview12"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="WEB DEVELOPER &amp; WEB DESIGNER"
+						android:textSize="10sp"
+						android:textStyle="bold"
+						android:textColor="#90A4AE" />
+					<TextView
+						android:id="@+id/textview13"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="MARTIN LOUIES C. ANCAJA"
+						android:textSize="16sp"
+						android:textStyle="bold"
+						android:textColor="#37474F" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/dev3"
+				android:layout_width="match_parent"
+				android:layout_height="100dp"
+				android:layout_margin="5dp"
+				android:padding="8dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<de.hdodenhof.circleimageview.CircleImageView
+					android:id="@+id/circleimageview9"
+					android:layout_width="70dp"
+					android:layout_height="70dp"
+					android:src="@drawable/dev_digi"
+					app:civ_border_width="3dp"
+					app:civ_border_color="#008DCD"
+					app:civ_circle_background_color="#FFFFFF"
+					app:civ_border_overlay="true" />
+				<LinearLayout
+					android:id="@+id/linear8"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:gravity="center_vertical"
+					android:orientation="vertical">
+					<TextView
+						android:id="@+id/textview14"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="WEB DEVELOPER"
+						android:textSize="10sp"
+						android:textStyle="bold"
+						android:textColor="#90A4AE" />
+					<TextView
+						android:id="@+id/textview15"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="MIGUEL NAZARENO DIGO"
+						android:textSize="16sp"
+						android:textStyle="bold"
+						android:textColor="#37474F" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/dev4"
+				android:layout_width="match_parent"
+				android:layout_height="100dp"
+				android:layout_margin="5dp"
+				android:padding="8dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<de.hdodenhof.circleimageview.CircleImageView
+					android:id="@+id/circleimageview10"
+					android:layout_width="70dp"
+					android:layout_height="70dp"
+					android:src="@drawable/dev_jayson"
+					app:civ_border_width="3dp"
+					app:civ_border_color="#008DCD"
+					app:civ_circle_background_color="#FFFFFF"
+					app:civ_border_overlay="true" />
+				<LinearLayout
+					android:id="@+id/linear10"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:gravity="center_vertical"
+					android:orientation="vertical">
+					<TextView
+						android:id="@+id/textview16"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="LEAD RESEACHER &amp; TESTER"
+						android:textSize="10sp"
+						android:textStyle="bold"
+						android:textColor="#90A4AE" />
+					<TextView
+						android:id="@+id/textview17"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="JAYSON B. ALCANTARA"
+						android:textSize="16sp"
+						android:textStyle="bold"
+						android:textColor="#37474F" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/dev5"
+				android:layout_width="match_parent"
+				android:layout_height="100dp"
+				android:layout_margin="5dp"
+				android:padding="8dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<de.hdodenhof.circleimageview.CircleImageView
+					android:id="@+id/circleimageview11"
+					android:layout_width="70dp"
+					android:layout_height="70dp"
+					android:src="@drawable/dev_kendrick"
+					app:civ_border_width="3dp"
+					app:civ_border_color="#008DCD"
+					app:civ_circle_background_color="#FFFFFF"
+					app:civ_border_overlay="true" />
+				<LinearLayout
+					android:id="@+id/linear12"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:gravity="center_vertical"
+					android:orientation="vertical">
+					<TextView
+						android:id="@+id/textview18"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="PROJECT DESIGNER"
+						android:textSize="10sp"
+						android:textStyle="bold"
+						android:textColor="#90A4AE" />
+					<TextView
+						android:id="@+id/textview19"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="KENDRICK A. PANINGBATAN"
+						android:textSize="16sp"
+						android:textStyle="bold"
+						android:textColor="#37474F" />
+				</LinearLayout>
+			</LinearLayout>
+			<TextView
+				android:id="@+id/textview11"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="10dp"
+				android:text="©2022 Unexpected Upgrade. All rights Reserved."
+				android:textSize="10sp"
+				android:textStyle="bold"
+				android:textColor="#CFD8DC" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
