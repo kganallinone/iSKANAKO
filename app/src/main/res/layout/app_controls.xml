@@ -1,0 +1,136 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear5"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="@drawable/bg_002"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="SYSTEM CONTROLS"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="#90A4AE" />
+		<TextView
+			android:id="@+id/textview9"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="This page is for controlling the system."
+			android:textSize="10sp"
+			android:textStyle="bold"
+			android:textColor="#90A4AE" />
+		<LinearLayout
+			android:id="@+id/linear13"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginTop="10dp"
+			android:padding="8dp"
+			android:gravity="left"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/dsply1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Switch
+					android:id="@+id/switch2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="OFF"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview10"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="UNDERMAINTENANCE PAGE"
+					android:textSize="14sp"
+					android:textStyle="bold"
+					android:textColor="#90A4AE" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/dsply2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Switch
+					android:id="@+id/switch3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="OFF"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview11"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="TEST PAGE"
+					android:textSize="14sp"
+					android:textStyle="bold"
+					android:textColor="#90A4AE" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/dsply"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Switch
+					android:id="@+id/switch4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="OFF"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview12"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="UPDATE PAGE"
+					android:textSize="14sp"
+					android:textStyle="bold"
+					android:textColor="#90A4AE" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear15"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Switch
+					android:id="@+id/switch5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="OFF"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview13"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="PUBLIC ANNOUNCEMENT"
+					android:textSize="14sp"
+					android:textStyle="bold"
+					android:textColor="#90A4AE" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

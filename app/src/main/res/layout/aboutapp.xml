@@ -1,0 +1,77 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear5"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="@drawable/bg_002"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear7"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical">
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="100dp"
+				android:layout_height="100dp"
+				android:layout_marginTop="10dp"
+				android:layout_marginBottom="10dp"
+				android:src="@drawable/default_image"
+				android:scaleType="fitCenter" />
+			<TextView
+				android:id="@+id/textview3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="iSKAN AKO"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:textColor="#263238" />
+			<TextView
+				android:id="@+id/textview4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="10dp"
+				android:text="Attendance Monitoring Management"
+				android:textSize="10sp"
+				android:textStyle="bold"
+				android:textColor="#90A4AE" />
+			<LinearLayout
+				android:id="@+id/linear10"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="left|center_vertical"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/title"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="ABOUT APP"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#37474F" />
+			</LinearLayout>
+			<EditText
+				android:id="@+id/subtitle"
+				android:layout_width="match_parent"
+				android:layout_height="200dp"
+				android:padding="8dp"
+				android:background="@android:color/transparent"
+				android:text="iSKAN AKO was originally developed for the PUP Lopez branch's laboratories. Using a QR Code Scanner, this is an innovative method of tracking student and faculty teacher attendance.\n\nThis application's features may be expanded in the future. This application benefits the school community as long as it is used. The developers will do everything possible to make it more useful."
+				android:textSize="12sp"
+				android:textColor="#000000"
+				android:hint="Edit Text"
+				android:textColorHint="#607D8B"
+				android:enabled="false" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

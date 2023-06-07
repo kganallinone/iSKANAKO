@@ -1,0 +1,127 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear5"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="@drawable/bg_002"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="DATABASE FIXER"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="#90A4AE" />
+		<TextView
+			android:id="@+id/textview9"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="This page is for controlling the system."
+			android:textSize="10sp"
+			android:textStyle="bold"
+			android:textColor="#90A4AE" />
+		<LinearLayout
+			android:id="@+id/linear13"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginTop="10dp"
+			android:gravity="left"
+			android:orientation="vertical">
+			<ScrollView
+				android:id="@+id/vscroll1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+				<LinearLayout
+					android:id="@+id/linear16"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="vertical">
+					<LinearLayout
+						android:id="@+id/a1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/textview14"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginBottom="10dp"
+							android:text="RTFB: attendance_db"
+							android:textSize="10sp"
+							android:textStyle="bold"
+							android:textColor="#90A4AE" />
+						<EditText
+							android:id="@+id/edittext1"
+							android:layout_width="200dp"
+							android:layout_height="wrap_content"
+							android:layout_marginBottom="5dp"
+							android:padding="8dp"
+							android:background="#78909C"
+							android:textSize="12sp"
+							android:textColor="#FFFFFF"
+							android:hint="Enter Key Name"
+							android:textColorHint="#FFFFFF" />
+						<EditText
+							android:id="@+id/edittext2"
+							android:layout_width="200dp"
+							android:layout_height="wrap_content"
+							android:layout_marginBottom="10dp"
+							android:padding="8dp"
+							android:background="#78909C"
+							android:textSize="12sp"
+							android:textColor="#FFFFFF"
+							android:hint="Enter Key Value"
+							android:textColorHint="#FFFFFF" />
+						<TextView
+							android:id="@+id/process"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="10sp"
+							android:textStyle="bold"
+							android:textColor="#90A4AE" />
+						<LinearLayout
+							android:id="@+id/linear17"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal">
+							<Button
+								android:id="@+id/button1"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="ADD"
+								android:textSize="12sp"
+								android:textColor="#000000" />
+							<Button
+								android:id="@+id/button2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="DELETE"
+								android:textSize="12sp"
+								android:textColor="#000000" />
+							<Button
+								android:id="@+id/button3"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="DELETE ALL"
+								android:textSize="12sp"
+								android:textColor="#000000" />
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+			</ScrollView>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
